@@ -1,0 +1,18 @@
+void main() {
+  int decimal = 287; //Se coloca el valor decimal
+
+  int binario = 0;
+
+  int i = 1;
+
+  while (decimal > 0) 
+  {
+    binario = binario + (decimal % 2) * i;
+
+    decimal = (decimal / 2).floor();
+
+    i = i * 10;
+  }
+
+  print('El resultado del valor convertido a binario es: $binario');
+}
