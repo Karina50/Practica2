@@ -1,0 +1,55 @@
+void main() {
+  final salario_hora = 120;
+  final salario_horaextra = 145;
+ 
+  var salarioPrimeraSemana;
+  
+  print ('PRIMERA SEMADA');
+  
+  final horasTrabajadas_semana1 = 10; //Aqui se coloca el numero de horas trabajas
+  
+  if (horasTrabajadas_semana1<=27)
+  {
+    print ('Las horas trabajas son: $horasTrabajadas_semana1 por lo tanto se levantará acta administrativa');
+  }
+  
+  if (horasTrabajadas_semana1>40)
+  {
+    salarioPrimeraSemana = 40 * salario_hora;
+    salarioPrimeraSemana += (horasTrabajadas_semana1 - 40) * salario_horaextra; 
+  }
+  
+  else
+  {
+    salarioPrimeraSemana = horasTrabajadas_semana1 * salario_horaextra;
+  }
+  
+  print ('El salario de esta semana es; $salarioPrimeraSemana');
+  
+  ////////////////
+  
+  var salarioSegundaSemana;
+  
+  print ('SEGUNDA SEMANA');
+  
+  final horasTrabajadas_semana2 = 22;
+  
+  if (horasTrabajadas_semana2<=27)
+  {
+    print ('Las horas trabajas son: $horasTrabajadas_semana2 por lo tanto se levanta acta administrativa');
+    print ('(DOS ACTAS ADMINISTRATIVAS AMERITAN DESPIDO)');
+  }
+
+  if (horasTrabajadas_semana2>40)
+  {
+    salarioSegundaSemana = 40 * salario_hora;
+    salarioSegundaSemana += (horasTrabajadas_semana2 - 40) * salario_horaextra; 
+  }
+  
+  else
+  {
+    salarioSegundaSemana = horasTrabajadas_semana2 * salario_horaextra;
+  }
+  
+  print ('El salario de esta semana es; $salarioSegundaSemana');
+}
