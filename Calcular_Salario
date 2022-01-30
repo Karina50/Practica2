@@ -1,4 +1,13 @@
-void main() {
+void main() 
+{
+//Nombre escuela: Universidad tecnologica Metropolitana
+/7Asignatura: Desarrollo móvil multiplataforma
+//Nombre del maestro: Joel Chuc
+//Nombre de la actividad: Calculo del salario
+//Nombre del alumno: Karina Moo Uc
+//5-C
+//Parcial 1
+
   final salario_hora = 120;
   final salario_horaextra = 145;
  
