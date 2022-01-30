@@ -1,4 +1,13 @@
-void main() {
+void main() 
+{
+//Nombre escuela: Universidad tecnologica Metropolitana
+/7Asignatura: Desarrollo móvil multiplataforma
+//Nombre del maestro: Joel Chuc
+//Nombre de la actividad: Conversión a binarios
+//Nombre del alumno: Karina Moo Uc
+//5-C
+//Parcial 1
+
   int decimal = 287; //Se coloca el valor decimal
 
   int binario = 0;
